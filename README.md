@@ -55,8 +55,6 @@ The original hospital dataset is not included in this repository because it may 
 
 Only a small synthetic dataset is provided in `data/sample_synthetic_surgeries.csv`. This file is artificial and is included only to demonstrate how the code works.
 
-Do not upload real patient, hospital, staff, or surgical records to GitHub.
-
 ## How to Run
 
 First, install the required Python packages:
