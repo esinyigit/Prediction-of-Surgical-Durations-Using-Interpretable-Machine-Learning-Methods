@@ -1,0 +1,21 @@
+surgery_name,medical_unit,surgeon,anaesthesiologist,patient_age,duration_minutes
+Appendectomy,General Surgery,Doctor_A,Anaesth_A,45,85
+Appendectomy,General Surgery,Doctor_B,Anaesth_B,34,78
+Cholecystectomy,General Surgery,Doctor_A,Anaesth_C,52,112
+Cholecystectomy,General Surgery,Doctor_C,Anaesth_A,61,135
+Knee Arthroscopy,Orthopedics,Doctor_D,Anaesth_D,38,72
+Knee Arthroscopy,Orthopedics,Doctor_E,Anaesth_D,44,81
+Hip Replacement,Orthopedics,Doctor_F,Anaesth_E,69,154
+Hip Replacement,Orthopedics,Doctor_F,Anaesth_F,73,168
+Cesarean Section,Obstetrics,Doctor_G,Anaesth_G,29,64
+Cesarean Section,Obstetrics,Doctor_H,Anaesth_G,33,58
+Hysterectomy,Gynecology,Doctor_I,Anaesth_H,49,126
+Hysterectomy,Gynecology,Doctor_I,Anaesth_I,56,141
+Tonsillectomy,ENT,Doctor_J,Anaesth_J,21,42
+Tonsillectomy,ENT,Doctor_K,Anaesth_J,18,39
+Septoplasty,ENT,Doctor_L,Anaesth_K,36,55
+Septoplasty,ENT,Doctor_L,Anaesth_L,41,63
+Coronary Bypass,Cardiovascular Surgery,Doctor_M,Anaesth_M,67,238
+Coronary Bypass,Cardiovascular Surgery,Doctor_N,Anaesth_N,72,265
+Thyroidectomy,General Surgery,Doctor_O,Anaesth_C,48,119
+Thyroidectomy,General Surgery,Doctor_O,Anaesth_A,54,128
