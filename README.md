@@ -14,7 +14,8 @@ This project demonstrates a simple and interpretable machine learning workflow f
 
 - Data preparation for structured surgical records
 - Feature engineering for categorical and numerical variables
-- A baseline machine learning model
+- XGBoost regression model
+- Stratified analysis of short, medium, and long surgeries
 - Model evaluation using MAE, RMSE, and median absolute error
 - Example prediction interface for new surgical cases
 - A synthetic sample dataset for reproducibility
@@ -80,7 +81,8 @@ This will:
 
 - load the synthetic sample dataset
 - prepare the features
-- train a baseline model
+- split surgeries into short, medium, and long duration groups for stratified evaluation
+- train an XGBoost model
 - evaluate prediction performance
 - save example outputs under `reports/`
 
@@ -90,10 +92,11 @@ The current reproducible example uses:
 
 - one-hot encoding for categorical variables
 - median imputation for numerical variables
-- random forest regression
-- train/test evaluation
+- XGBoost regression
+- train/test evaluation stratified by short, medium, and long surgeries
+- subgroup error analysis by surgery duration group
 
-The original thesis notebook contains additional stratified modeling experiments.
+The thesis workflow splits procedures into short, medium, and long surgeries to evaluate whether model performance changes across different duration groups.
 
 ## Connection to Statistical Bioinformatics
 
@@ -110,4 +113,3 @@ Future extensions could adapt this workflow to high-dimensional biomedical datas
 ## Main Thesis Title
 
 Prediction of Surgical Durations Using Machine Learning Methods
-
