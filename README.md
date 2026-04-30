@@ -19,7 +19,6 @@ This project demonstrates a simple and interpretable machine learning workflow f
 - Model evaluation using MAE, RMSE, and median absolute error
 - Example prediction interface for new surgical cases
 - A synthetic sample dataset for reproducibility
-- Notes connecting the project to statistical bioinformatics research
 
 ## Repository Structure
 
@@ -44,7 +43,9 @@ surgical-duration-prediction-ml/
 
   reports/
     thesis_summary.md
-    future_work_statistical_bioinformatics.md
+    metrics.csv
+    metrics_by_duration_group.csv
+    example_predictions.csv
     figures/
 ```
 
@@ -90,18 +91,6 @@ The current reproducible example uses:
 - subgroup error analysis by surgery duration group
 
 The thesis workflow splits procedures into short, medium, and long surgeries to evaluate whether model performance changes across different duration groups.
-
-## Connection to Statistical Bioinformatics
-
-Although this thesis project focuses on surgical duration prediction rather than omics data, it is connected to statistical bioinformatics through shared methodological ideas:
-
-- modeling heterogeneous biomedical data
-- evaluating model performance across meaningful subgroups
-- building reproducible analysis pipelines
-- using interpretable machine learning methods
-- assessing prediction errors and model fit
-
-Future extensions could adapt this workflow to high-dimensional biomedical datasets such as transcriptomics, proteomics, metabolomics, or longitudinal clinical measurements.
 
 ## Main Thesis Title
 
