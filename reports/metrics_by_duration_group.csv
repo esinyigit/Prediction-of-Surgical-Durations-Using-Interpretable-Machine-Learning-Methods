@@ -1,0 +1,4 @@
+duration_group,mean_absolute_error_minutes,median_absolute_error_minutes,number_of_cases
+long,18.189992268880207,15.962860107421875,3
+medium,5.563995361328125,5.563995361328125,2
+short,17.304359436035156,17.304359436035156,1

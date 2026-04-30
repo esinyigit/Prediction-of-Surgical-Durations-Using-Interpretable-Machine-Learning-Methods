@@ -1,0 +1,4 @@
+metric,value
+mae,13.834
+median_absolute_error,14.870
+rmse,15.548
